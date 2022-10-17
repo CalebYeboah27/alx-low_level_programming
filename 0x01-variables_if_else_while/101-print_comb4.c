@@ -17,11 +17,12 @@ int main(void)
 					putchar(x);
 					putchar(y);
 					putchar(z);
-					if (x != 55 || y != 56)
+					if (x != 55 || y != 56 || z != 57)
 					{
 						putchar(',');
 						putchar(32);
 					}
 				}
+	putchar('\n');
 	return (0);
 }

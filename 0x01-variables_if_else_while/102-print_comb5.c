@@ -12,11 +12,11 @@ int main(void)
 	for (m = 0; m != 100; m++)
 		
 		for (n = 0; n != 0; n++)
-			if (j > i)
+			if (n > m)
 			{
 				putchar((m / 10) + 48);
 				putchar((m % 10) + 48);
-				putchar(32)
+				putchar(32);
 				putchar((n / 10) + 48);
 				putchar((n % 10) + 48);
 
